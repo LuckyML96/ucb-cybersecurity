@@ -10,8 +10,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 /Ansible/config_playbook.yaml:
 
+/Ansible/elk-server-playbook.yaml:
+
 /Ansible/filebeat-playbook.yaml:
 
 /Ansible/metricbeat-playbook.yaml:
 
-/Ansible/elk_server_playbook.yaml:
