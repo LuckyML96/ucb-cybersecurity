@@ -6,4 +6,12 @@ The files in this repository was used to configure the network depicted below
 
 These files have been tested and used to generate a live ELK deployment on Azure. 
 
-# Playbooks
+# Ansible Playbooks
+
+/Ansible/config_playbook.yaml:
+
+/Ansible/filebeat-playbook.yaml:
+
+/Ansible/metricbeat-playbook.yaml:
+
+/Ansible/elk_server_playbook.yaml:
