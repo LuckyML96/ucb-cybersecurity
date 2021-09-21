@@ -7,12 +7,18 @@ The files in this repository was used to configure the network depicted below
 These files have been tested and used to generate a live ELK deployment on Azure. 
 
 # Ansible Playbooks
+All Playbooks are located in the ansible folder /Ansible
 
-/Ansible/config_playbook.yaml:
+## config_playbook.yaml:
+This playbook is used to configure the webserver VMs with docker and install containers running DVWA
 
-/Ansible/elk-server-playbook.yaml:
+### How to run
 
-/Ansible/filebeat-playbook.yaml:
+ansible-playbook ansible/config_playbook.yaml
 
-/Ansible/metricbeat-playbook.yaml:
+## elk-server-playbook.yaml:
+
+## filebeat-playbook.yaml:
+
+## metricbeat-playbook.yaml:
 
