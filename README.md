@@ -1,1 +1,1 @@
-# ucb-cybersecurity
+# Automated ELK Stack Deployment
