@@ -18,18 +18,18 @@ ansible-playbook ansible/config_playbook.yaml
 
 ## elk-server-playbook.yaml:
 
-## How to run
+### How to run
 
 ansible-playbook ansible/elk-server-playbook.yaml
 
 ## filebeat-playbook.yaml:
 
-## How to run
+### How to run
 
 ansible-playbook ansible/filebeat-playbook.yaml
 
 ## metricbeat-playbook.yaml:
 
-## How to run
+### How to run
 
 ansible-playbook ansible/filebeat-playbook.yaml
