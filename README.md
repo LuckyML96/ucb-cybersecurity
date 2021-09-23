@@ -16,6 +16,7 @@ This playbook is used to configure the webserver VMs with docker and install con
 ansible-playbook ansible/config_playbook.yaml
 
 ## elk-server-playbook.yaml:
+This playbook is used to configure the elk server VM with docker and install the elk container
 
 ### How to run
 
