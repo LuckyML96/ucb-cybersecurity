@@ -40,7 +40,7 @@ ansible-playbook ansible/filebeat-playbook.yaml
 The main purpose of this project is to expose a load balanced and monitored instance of DVWA (Damn Vulnerable Web Application)
 - have a load balanced application adds redundancy in case one of the server goes down and all helps restrict access to the applications
 
-The Following is Table of the existing VMs on the network
+### The following is table of the existing VMs on the network
 
 | NAME | FUNCTION | IP ADDRESS | OPERATING SYSTEM |
 |------|----------|------------|------------------|
@@ -49,5 +49,16 @@ The Following is Table of the existing VMs on the network
 |Web2|Webserver2/DVWA|10.1.0.6|Linux|
 |ELK|ELK Server|10.2.0.4|Linux|
 
+### The following is a table of the access policices in place on the network
+
+|NAME|EXPOSED PORTS|ALLOWED IP ADDRESSES|
+|----|-------------|--------------------|
+|JumpBox|22|Local Work Station IP|
+|Web1|22|JumpBox - 10.1.0.4|
+|Web1|80|Local Work Station IP|
+|Web2|22|JumpBox - 10.1.0.4|
+|Web2|80|Local Work Station IP|
+|ELK|22|JumpBox - 10.1.0.4|
+|ELK|5601|Local Work Station IP|
 
 The Jumpbox is the single point that can access the virtual machines within the virtual network. An ssh-key needs to be set up in order to access the jumpbox virutal machine from your local work station. In addition to the generated ssh-key, access rules are also in place to only allow your personal work station ssh access to the jumpbox. All other virtual machines on the network are not exposed to the public network and can only be accessed by the jumpbox. This means to gain access to the webserver vms (10.1.0.5 & 10.1.0.6), you have to be within the jumpbox with the private ip (10.1.0.4). Similarly the ELK server Virtual Machine can only be accessed via the jumpbox public IP.
