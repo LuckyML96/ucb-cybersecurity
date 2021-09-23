@@ -23,12 +23,14 @@ This playbook is used to configure the elk server VM with docker and install the
 ansible-playbook ansible/elk-server-playbook.yaml
 
 ## filebeat-playbook.yaml:
+This playbook configures and installs filebeat on the webserver VMs. It will copy the configuration file /Ansible/filebeat-config.yml into the container
 
 ### How to run
 
 ansible-playbook ansible/filebeat-playbook.yaml
 
 ## metricbeat-playbook.yaml:
+This playbook configures and installs metrcibeat on the webserver VMs. It will copy the configuration file /Ansible/metricbeat-config.yml into the container
 
 ### How to run
 
