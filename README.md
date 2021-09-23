@@ -1,7 +1,7 @@
 # Automated ELK Stack Deployment
 
 The files in this repository was used to configure the network depicted below
-![ELK Architecture](https://github.com/LuckyML96/ucb-cybersecurity/blob/main/Diagrams/Elk%20Architecture.PNG?raw=true)
+![ELK Architecture](https://github.com/LuckyML96/ucb-cybersecurity/blob/main/Images/Elk%20Architecture.PNG?raw=true)
 
 These files have been tested and used to generate a live ELK deployment on Azure. 
 
