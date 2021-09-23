@@ -49,7 +49,7 @@ The main purpose of this project is to expose a load balanced and monitored inst
 |Web2|Webserver2/DVWA|10.1.0.6|Linux|
 |ELK|ELK Server|10.2.0.4|Linux|
 
-### Table of the access policices in place on the network
+### Table of the access policies in place on the network
 
 |NAME|EXPOSED PORTS|ALLOWED IP ADDRESSES|
 |----|-------------|--------------------|
