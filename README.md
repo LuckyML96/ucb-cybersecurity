@@ -36,7 +36,7 @@ This playbook configures and installs metrcibeat on the webserver VMs. It will c
 
 ansible-playbook ansible/filebeat-playbook.yaml
 
-# TOPOLOGY
+# Topology
 The main purpose of this project is to expose a load balanced and monitored instance of DVWA (Damn Vulnerable Web Application)
 - have a load balanced application adds redundancy in case one of the server goes down and all helps restrict access to the applications
 
